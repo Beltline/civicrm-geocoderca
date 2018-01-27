@@ -1,15 +1,11 @@
 # ca.beltline.geocoderca
 
-![Screenshot](/images/screenshot.png)
-
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
-
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
 * PHP v5.4+
-* CiviCRM (*FIXME: Version number*)
+* CiviCRM 4.7+
 
 ## Installation (Web UI)
 
@@ -31,14 +27,16 @@ Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) 
 install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
-git clone https://github.com/FIXME/ca.beltline.geocoderca.git
-cv en geocoderca
+git clone https://github.com/Beltline/civicrm-geocoderca
+cv en civicrm-geocoderca
 ```
 
 ## Usage
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
+After installation please configure via Administer -> System Settings -> Mapping and Geocoding
+
+You may need an API key from www.geocoder.ca if you will exceed their free lookups threshold. See www.geocoder.ca for details
 
 ## Known Issues
 
-(* FIXME *)
+None
